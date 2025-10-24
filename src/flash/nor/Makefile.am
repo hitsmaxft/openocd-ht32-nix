@@ -25,6 +25,7 @@ NOR_DRIVERS = \
 	%D%/fm3.c \
 	%D%/fm4.c \
 	%D%/ht32f165x.c \
+	%D%/ht32f523xx.c \
 	%D%/jtagspi.c \
 	%D%/kinetis.c \
 	%D%/kinetis_ke.c \

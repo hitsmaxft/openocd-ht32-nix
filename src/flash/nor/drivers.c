@@ -38,6 +38,7 @@ extern struct flash_driver faux_flash;
 extern struct flash_driver fm3_flash;
 extern struct flash_driver fm4_flash;
 extern struct flash_driver ht32f165x_flash;
+extern struct flash_driver ht32f523xx_flash;
 extern struct flash_driver jtagspi_flash;
 extern struct flash_driver kinetis_flash;
 extern struct flash_driver kinetis_ke_flash;
@@ -91,6 +92,7 @@ static struct flash_driver *flash_drivers[] = {
     &fm3_flash,
     &fm4_flash,
     &ht32f165x_flash,
+    &ht32f523xx_flash,
     &jtagspi_flash,
     &kinetis_flash,
     &kinetis_ke_flash,
